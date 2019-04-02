@@ -1,2 +1,2 @@
-# chartjs-modified
-Chartsjs modified for line chart and stacked bar chart
+# chartjs-modified Qlik Sense
+Chartsjs modified for QLIK Senseline chart and stacked bar chart
