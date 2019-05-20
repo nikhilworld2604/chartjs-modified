@@ -43,6 +43,7 @@ var visualize=function(e, t, a, l) {
     q=document.getElementById(o);
     new Chart(q, {
         type:"bar", data:k, options: {
+			animation: false,
             title: {
                 display: t.title_switch, text: t.title
             }
@@ -52,7 +53,7 @@ var visualize=function(e, t, a, l) {
                     m[t.text]<0||(o.push(m[t.text]), a.selectValues(l, o, !0))
                 }
                 , fullWidth: true, labels: {
-                    boxWidth: 12, padding: 7, itemWrap: false, itemMaxWidth: 150, fontSize: 13
+                    boxWidth: 6, padding: 7, itemWrap: false, itemMaxWidth: 150, fontSize: 9
                 }
             }
             , tooltips: {
